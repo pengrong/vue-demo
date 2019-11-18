@@ -1,0 +1,8 @@
+module.exports = {
+    devServer: {
+        port: 8888,     // 端口
+    },
+    transpileDependencies: [
+        /\bvue-awesome\b/
+    ]
+}
